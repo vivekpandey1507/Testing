@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="my_Test_Suite" duration-ms="40112" started-at="2021-11-10T17:58:10 IST" finished-at="2021-11-10T17:58:50 IST">
+    <groups>
+    </groups>
+    <test name="myAutomationTest" duration-ms="40112" started-at="2021-11-10T17:58:10 IST" finished-at="2021-11-10T17:58:50 IST">
+      <class name="com.natwest.iag.test.runner.TestRunner">
+        <test-method status="PASS" signature="initializeCucumberRunner()[pri:0, instance:com.natwest.iag.test.runner.TestRunner@3cb1ffe6]" name="initializeCucumberRunner" is-config="true" duration-ms="601" started-at="2021-11-10T17:58:10 IST" finished-at="2021-11-10T17:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCucumberRunner -->
+        <test-method status="PASS" signature="featureRunner(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.natwest.iag.test.runner.TestRunner@3cb1ffe6]" name="featureRunner" duration-ms="39450" started-at="2021-11-10T17:58:11 IST" data-provider="scenarios" finished-at="2021-11-10T17:58:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featureRunner -->
+      </class> <!-- com.natwest.iag.test.runner.TestRunner -->
+    </test> <!-- myAutomationTest -->
+  </suite> <!-- my_Test_Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="my_Test_Suite" verbose="1">
+   <test name="myAutomationTest"> 
+     <classes>
+	   <class name="com.natwest.iag.test.runner.TestRunner"/>
+     </classes>
+   </test> 
+</suite> 
